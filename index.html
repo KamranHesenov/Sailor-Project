@@ -6,187 +6,293 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="assests/css/style.css">
   <script src="https://kit.fontawesome.com/3e6d1ff2bb.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
   <header>
-    <nav>
-      <ul>
-        <li><a href="#">Featured</a></li>
-        <li><a href="#">Furniture</a></li>
-        <li><a href="#">Decorations</a></li>
-        <li><a href="#">Ligting</a></li>
-        <li><a href="#">Electronics</a></li>
-      </ul>
-    </nav>
+    <div class="container d-flex j-cont-between">
+      <div class="logo">
+        <h1>
+          <a href="">SAILOR</a>
+        </h1>
+      </div>
+      <nav class="d-flex">
+        <ul class="d-flex">
+          <li><a class="active" href="#">Home</a></li>
+          <li class="dropdown-element"><a href="#about">About
+              <i class="fa-solid fa-angle-down"></i>
+              <ul class="dropdown-element-item">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Deep Drop Down</a></li>
+              </ul>
+            </a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <a class="btn-danger" href="#">Get Started</a>
+      </nav>
+    </div>
   </header>
+  <section id="banner">
+    <div class="overlay banner-row">
+      <div class="left">
+        <i class="fa-solid fa-angle-left"></i>
+      </div>
+      <div class="right">
+        <i class="fa-solid fa-angle-right"></i>
+      </div>
+      <div class="bottom-circle">
+        <i class="fa-solid fa-circle"></i>
+        <i class="fa-solid fa-circle"></i>
+        <i class="fa-solid fa-circle"></i>
+      </div>
+      <div class="banner-text">
+        <h4>Lorem Ipsum Dolor</h4>
+        <p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam.
+          Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti
+          vel. Minus et tempore modi architecto. </p>
+        <a class="btn-danger" href="#">Read More</a>
+      </div>
+    </div>
+  </section>
 
   <main>
-    <!-- Main Section1 Product List -->
-    <section id="ProductList">
-      <article>
-        <a href="#">
-          <div class="img-container">
-            <img src="img/photo-removebg-preview.png" alt="product">
-          </div>
+    <section id="about">
+      <div class="container about-row">
+        <div class="w-45">
+          <h2>EUM IPSAM LABORUM DELENITI VELITENA</h2>
+          <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assum perenda sruen jonee trave </h3>
+        </div>
 
-          <div class="product-item-text">
-            <p>Furniture</p>
-            <h3>Big Block Chair</h3>
-            <span>$249</span>
-          </div>
-        </a>
-      </article>
-      <article>
-        <a href="#">
-          <div class="img-container">
-            <img src="img/photo-removebg-preview.png" alt="product">
-          </div>
-
-          <div class="product-item-text">
-            <p>Furniture</p>
-            <h3>Big Block Chair</h3>
-            <span>$249</span>
-          </div>
-        </a>
-      </article>
-      <div class="banner">
-        <a href="#">
-          <img src="img/banner-reklamlari.jpg" alt="">
-        </a>
-      </div>
-      <div class="banner">
-        <a href="#">
-          <img src="img/banner-reklamlari.jpg" alt="">
-        </a>
-      </div>
-      <article>
-        <a href="#">
-          <div class="img-container">
-            <img src="img/photo-removebg-preview.png" alt="product">
-          </div>
-
-          <div class="product-item-text">
-            <p>Furniture</p>
-            <h3>Big Block Chair</h3>
-            <span>$249</span>
-          </div>
-        </a>
-      </article>
-      <article>
-        <a href="#">
-          <div class="img-container">
-            <img src="img/photo-removebg-preview.png" alt="product">
-          </div>
-
-          <div class="product-item-text">
-            <p>Furniture</p>
-            <h3>Big Block Chair</h3>
-            <span>$249</span>
-          </div>
-        </a>
-      </article>
-      <article>
-        <a href="#">
-          <div class="img-container">
-            <img src="img/photo-removebg-preview.png" alt="product">
-          </div>
-
-          <div class="product-item-text">
-            <p>Furniture</p>
-            <h3>Big Block Chair</h3>
-            <span>$249</span>
-          </div>
-        </a>
-      </article>
-      <article>
-        <a href="#">
-          <div class="img-container">
-            <img src="img/photo-removebg-preview.png" alt="product">
-          </div>
-
-          <div class="product-item-text">
-            <p>Furniture</p>
-            <h3>Big Block Chair</h3>
-            <span>$249</span>
-          </div>
-        </a>
-      </article>
-      <article>
-        <a href="#">
-          <div class="img-container">
-            <img src="img/photo-removebg-preview.png" alt="product">
-          </div>
-
-          <div class="product-item-text">
-            <p>Furniture</p>
-            <h3>Big Block Chair</h3>
-            <span>$249</span>
-          </div>
-        </a>
-      </article><br />
-      <div class="show-more">
-        <a href="index.html">Show More</a>
+        <div class="w-50">
+          <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+            sunt in culpa qui officia deserunt mollit anim id est laborum </p>
+          <ul>
+            <li>
+              Ullamco laboris nisi ut aliquip ex ea commodo consequa</li>
+            <li>
+              Duis aute irure dolor in reprehenderit in voluptate velit</li>
+            <li>
+              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in</li>
+          </ul>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. </p>
+        </div>
       </div>
     </section>
 
-    <!-- Main Section2 Social Network -->
-    <section id="social-network">
-      <div class="container">
-        <div class="sc-network-left">
-          <a href="#"><i class="fa-brands fa-facebook-square"></i></a>
-          <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
-          <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
-        </div>
+    <section id="sponsors">
+      <div class="container sponsors-row">
+        <img src="assests/img/client-1.png" alt="">
+        <img src="assests/img/client-2.png" alt="">
+        <img src="assests/img/client-3.png" alt="">
+        <img src="assests/img/client-4.png" alt="">
+        <img src="assests/img/client-5.png" alt="">
+        <img src="assests/img/client-6.png" alt="">
+      </div>
+    </section>
 
-        <div class="social-form-right">
-          <form action="">
-            <label for="">Subcribe to get updates</label>
-            <input type="email" name="" id="" placeholder="Your Name">
-            <input type="submit" name="" id="" value="Subscribe">
-          </form>
+
+    <section id="services">
+      <div class="container services-row">
+        <div class="services-item">
+          <i class="fa-solid fa-briefcase"></i>
+          <div>
+            <h4>Lorem Ipsum</h4>
+            <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non
+              provident</p>
+          </div>
+        </div>
+        <div class="services-item">
+          <i class="fa-solid fa-briefcase"></i>
+          <div>
+            <h4>Lorem Ipsum</h4>
+            <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non
+              provident</p>
+          </div>
+        </div>
+        <div class="services-item">
+          <i class="fa-solid fa-briefcase"></i>
+          <div>
+            <h4>Lorem Ipsum</h4>
+            <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non
+              provident</p>
+          </div>
+        </div>
+        <div class="services-item">
+          <i class="fa-solid fa-briefcase"></i>
+          <div>
+            <h4>Lorem Ipsum</h4>
+            <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non
+              provident</p>
+          </div>
+        </div>
+        <div class="services-item">
+          <i class="fa-solid fa-briefcase"></i>
+          <div>
+            <h4>Lorem Ipsum</h4>
+            <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non
+              provident</p>
+          </div>
+        </div>
+        <div class="services-item">
+          <i class="fa-solid fa-briefcase"></i>
+          <div>
+            <h4>Lorem Ipsum</h4>
+            <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non
+              provident</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="products">
+      <div class="container product-row">
+        <div class="product-menu">
+          <button>ALL</button>
+          <button>APP</button>
+          <button>CARD</button>
+          <button>WEB</button>
+        </div>
+        <div class="product-list">
+          <div class="product-item">
+            <div class="product-image">
+              <div class="card-overlay">
+                <div class="card-text">
+                  <h4>App 1</h4>
+                  <p>APP</p>
+                  <a href=""><i class="fa-solid fa-plus"></i></a>
+                  <a href=""><i class="fa-solid fa-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product-item">
+            <div class="product-image">
+              <div class="card-overlay">
+                <div class="card-text">
+                  <h4>App 1</h4>
+                  <p>APP</p>
+                  <a href=""><i class="fa-solid fa-plus"></i></a>
+                  <a href=""><i class="fa-solid fa-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product-item">
+            <div class="product-image">
+              <div class="card-overlay">
+                <div class="card-text">
+                  <h4>App 1</h4>
+                  <p>APP</p>
+                  <a href=""><i class="fa-solid fa-plus"></i></a>
+                  <a href=""><i class="fa-solid fa-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product-item">
+            <div class="product-image">
+              <div class="card-overlay">
+                <div class="card-text">
+                  <h4>App 1</h4>
+                  <p>APP</p>
+                  <a href=""><i class="fa-solid fa-plus"></i></a>
+                  <a href=""><i class="fa-solid fa-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product-item">
+            <div class="product-image">
+              <div class="card-overlay">
+                <div class="card-text">
+                  <h4>App 1</h4>
+                  <p>APP</p>
+                  <a href=""><i class="fa-solid fa-plus"></i></a>
+                  <a href=""><i class="fa-solid fa-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product-item">
+            <div class="product-image">
+              <div class="card-overlay">
+                <div class="card-text">
+                  <h4>App 1</h4>
+                  <p>APP</p>
+                  <a href=""><i class="fa-solid fa-plus"></i></a>
+                  <a href=""><i class="fa-solid fa-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
   </main>
 
   <footer>
-    <div class="container">
+    <div class="container footer-row">
       <div class="footer-left">
-        <h3>About</h3>
-      </div>
-
-      <div class="footer-right">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa aut voluptatum nisi, ut deleniti porro quae!
-        </p>
-        <ul class="f-left">
-          <li><a href="#">Featured</a></li>
-          <li><a href="#">Furniture</a></li>
-          <li><a href="#">Decorations</a></li>
-          <li><a href="#">Ligting</a></li>
-          <li><a href="#">Electronics</a></li>
-        </ul>
-        <ul class="f-left">
-          <li><a href="#">Featured</a></li>
-          <li><a href="#">Furniture</a></li>
-          <li><a href="#">Decorations</a></li>
-          <li><a href="#">Ligting</a></li>
-          <li><a href="#">Electronics</a></li>
-        </ul>
-        <div>
-          <p>Copyright right Soho Theme</p>
-          <p>Powered by <a href="#">Kamran Hasanov</a></p>
-          <div class="payment">
-            <img src="img/visa.png" alt="visacard">
-            <img src="img/mastercard.png" alt="mastercard">
-            <img src="img/paypal.png" alt="paypal">
-          </div>
+        <h4>Sailor</h4>
+        <address>
+          A108 Adam Street<br>
+          NY 535022, USA
+        </address>
+        <p><strong>Phone: </strong> +1 5589 55488 55</p>
+        <p><strong>Email: </strong> info@example.com</p>
+        <div class="footer-socials">
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></i></a>
+          <a href="#"><i class="fa-brands fa-skype"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
         </div>
       </div>
+      <div class="footer-center-left">
+        <h4>Useful Links</h4>
+        <ul>
+          <li><i class="fa-solid fa-angle-right"></i><a href="#">Home</a></li>
+          <li><i class="fa-solid fa-angle-right"></i><a href="#">About us</a></li>
+          <li><i class="fa-solid fa-angle-right"></i><a href="#">Services</a></li>
+          <li><i class="fa-solid fa-angle-right"></i><a href="#">Terms of service</a></li>
+          <li><i class="fa-solid fa-angle-right"></i><a href="#">Privacy policy</a></li>
+        </ul>
+      </div>
+      <div class="footer-center-left">
+        <h4>Useful Links</h4>
+        <ul>
+          <li><i class="fa-solid fa-angle-right"></i><a href="#">Home</a></li>
+          <li><i class="fa-solid fa-angle-right"></i><a href="#">About us</a></li>
+          <li><i class="fa-solid fa-angle-right"></i><a href="#">Services</a></li>
+          <li><i class="fa-solid fa-angle-right"></i><a href="#">Terms of service</a></li>
+          <li><i class="fa-solid fa-angle-right"></i><a href="#">Privacy policy</a></li>
+        </ul>
+      </div>
+      <div class="footer-right">
+        <form action="">
+          <h4>Our Newsletter</h4>
+          <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+          <input type="text">
+          <button>Subscribe</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-son">
+      <p>© Copyright Sailor. All Rights Reserved</p>
+      <span>Designed by BootstrapMade</span>
     </div>
   </footer>
+
 </body>
 
 </html>
